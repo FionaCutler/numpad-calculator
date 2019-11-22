@@ -378,12 +378,12 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX24
 U 1 1 5DDBE3EF
-P 8950 3850
-F 0 "MX24" H 9250 4100 60  0000 C CNN
-F 1 "MX-NoLED" H 9250 4000 20  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H" H 8325 3825 60  0001 C CNN
-F 3 "" H 8325 3825 60  0001 C CNN
-	1    8950 3850
+P 8850 3800
+F 0 "MX24" H 9150 4050 60  0000 C CNN
+F 1 "MX-NoLED" H 9150 3950 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H" H 8225 3775 60  0001 C CNN
+F 3 "" H 8225 3775 60  0001 C CNN
+	1    8850 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -397,8 +397,6 @@ F 3 "~" V 8750 4100 50  0001 C CNN
 	1    8750 4100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8900 4000 8800 4000
 Wire Wire Line
 	5800 4200 6500 4200
 Connection ~ 6500 4200
@@ -507,7 +505,7 @@ F 3 "~" V 8750 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8900 4750 8750 4750
+	8900 4750 8800 4750
 Wire Wire Line
 	5800 4950 6500 4950
 Connection ~ 6500 4950
@@ -616,8 +614,6 @@ F 3 "~" V 8750 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8900 5500 8800 5500
-Wire Wire Line
 	5800 5700 6500 5700
 Connection ~ 6500 5700
 Wire Wire Line
@@ -677,7 +673,7 @@ F 3 "~" V 7250 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7400 6250 7250 6250
+	7400 6250 7300 6250
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX19
 U 1 1 5DDDEC5A
@@ -725,7 +721,7 @@ F 3 "~" V 8750 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8900 6250 8750 6250
+	8900 6250 8800 6250
 Wire Wire Line
 	5800 6450 6500 6450
 Connection ~ 6500 6450
@@ -739,8 +735,6 @@ Wire Wire Line
 	8000 6450 8750 6450
 Text GLabel 5800 6450 0    50   Input ~ 0
 Row5
-Wire Wire Line
-	6850 6050 6850 5950
 Connection ~ 6850 2150
 Wire Wire Line
 	6850 2150 6850 1450
@@ -757,7 +751,7 @@ Connection ~ 6850 5300
 Wire Wire Line
 	6850 5300 6850 4550
 Wire Wire Line
-	7600 6050 7600 5300
+	7600 6050 7600 5950
 Connection ~ 7600 3050
 Wire Wire Line
 	7600 3050 7600 2150
@@ -791,19 +785,14 @@ Connection ~ 8350 5300
 Wire Wire Line
 	8350 5300 8350 4550
 Wire Wire Line
-	9100 6050 9100 5300
+	9100 6050 9100 5850
 Connection ~ 9100 2150
 Wire Wire Line
 	9100 2150 9100 1450
 Connection ~ 9100 3050
 Wire Wire Line
 	9100 3050 9100 2150
-Connection ~ 9100 3800
-Wire Wire Line
-	9100 3800 9100 3750
 Connection ~ 9100 4550
-Wire Wire Line
-	9100 4550 9100 3800
 Connection ~ 9100 5300
 Text GLabel 6850 1450 1    50   Input ~ 0
 Col0
@@ -816,51 +805,34 @@ Col3
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 5DDF85D9
-P 6550 6000
-F 0 "MX1" H 6583 6223 60  0000 C CNN
-F 1 "MX-NoLED" H 6583 6149 20  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200H" H 5925 5975 60  0001 C CNN
-F 3 "" H 5925 5975 60  0001 C CNN
-	1    6550 6000
+P 7350 6000
+F 0 "MX1" H 7383 6223 60  0000 C CNN
+F 1 "MX-NoLED" H 7383 6149 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200H" H 6725 5975 60  0001 C CNN
+F 3 "" H 6725 5975 60  0001 C CNN
+	1    7350 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 6150 6500 6250
-Connection ~ 6500 6250
-Wire Wire Line
-	6700 5950 6850 5950
-Connection ~ 6850 5950
-Wire Wire Line
-	6850 5950 6850 5300
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX21
 U 1 1 5DE00019
-P 8850 5200
-F 0 "MX21" H 8883 5423 60  0000 C CNN
-F 1 "MX-NoLED" H 8883 5349 20  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200V" H 8225 5175 60  0001 C CNN
-F 3 "" H 8225 5175 60  0001 C CNN
-	1    8850 5200
+P 8850 5900
+F 0 "MX21" H 8883 6123 60  0000 C CNN
+F 1 "MX-NoLED" H 8883 6049 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200V" H 8225 5875 60  0001 C CNN
+F 3 "" H 8225 5875 60  0001 C CNN
+	1    8850 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 5350 8800 5500
-Connection ~ 8800 5500
-Wire Wire Line
-	8800 5500 8750 5500
-Wire Wire Line
-	9100 5300 9100 5150
-Wire Wire Line
-	9000 5300 9100 5300
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX20
 U 1 1 5DE0C34B
-P 8850 3800
-F 0 "MX20" H 8883 4023 60  0000 C CNN
-F 1 "MX-NoLED" H 8883 3949 20  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200V" H 8225 3775 60  0001 C CNN
-F 3 "" H 8225 3775 60  0001 C CNN
-	1    8850 3800
+P 8850 4500
+F 0 "MX20" H 8883 4723 60  0000 C CNN
+F 1 "MX-NoLED" H 8883 4649 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200V" H 8225 4475 60  0001 C CNN
+F 3 "" H 8225 4475 60  0001 C CNN
+	1    8850 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -870,12 +842,44 @@ Wire Wire Line
 	9100 3750 9100 3050
 Wire Wire Line
 	8800 3950 8800 4000
-Connection ~ 8800 4000
 Wire Wire Line
 	8800 4000 8750 4000
 Wire Wire Line
-	9000 5150 9100 5150
-Connection ~ 9100 5150
+	9000 5850 9100 5850
 Wire Wire Line
-	9100 5150 9100 4550
+	9100 3750 9100 4450
+Wire Wire Line
+	8800 4650 8800 4750
+Connection ~ 8800 4750
+Wire Wire Line
+	8800 4750 8750 4750
+Wire Wire Line
+	9000 4450 9100 4450
+Connection ~ 9100 4450
+Wire Wire Line
+	9100 4450 9100 4550
+Wire Wire Line
+	7500 5950 7600 5950
+Connection ~ 7600 5950
+Wire Wire Line
+	7600 5950 7600 5300
+Wire Wire Line
+	7300 6150 7300 6250
+Connection ~ 7300 6250
+Wire Wire Line
+	7300 6250 7250 6250
+Wire Wire Line
+	6850 5300 6850 6050
+Connection ~ 9100 5850
+Wire Wire Line
+	9100 5850 9100 5300
+Wire Wire Line
+	9100 4550 9100 5300
+Wire Wire Line
+	8750 5500 8900 5500
+Wire Wire Line
+	8800 6050 8800 6250
+Connection ~ 8800 6250
+Wire Wire Line
+	8800 6250 8750 6250
 $EndSCHEMATC
